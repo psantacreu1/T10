@@ -48,7 +48,7 @@ else if(sexo == "femenino" && edad < 20) {
 if (sexo == "masculino" && edad >= 18){
     alert("Puedes entrar, eres mayor de edad.")
     }
-else if (sexo == "masculino" && edad > 18){
+else if (sexo == "masculino" && edad < 18){
     alert("No puedes entrar, eres menor de edad.");
     }  
 
